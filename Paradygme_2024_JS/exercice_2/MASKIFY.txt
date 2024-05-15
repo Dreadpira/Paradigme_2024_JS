@@ -1,9 +1,9 @@
 const maskify = ("9583750923875498");
 
 function mmasknum (num) {
-  const last4Num = num.slice(-4); 
+  const last4num = num.slice(-4); 
   const secret = "#".repeat(num.length 12);
-  return `${secret}${last4Num}`;
+  return `${secret}${last4num}`;
 }
-console.log(maskNumber(maskify)); 
+console.log(masknum(maskify)); 
 
